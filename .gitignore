@@ -1,0 +1,27 @@
+# Root .gitignore
+
+# Laravel backend
+/backend/vendor/
+/backend/node_modules/
+/backend/.env
+/backend/storage/
+/backend/bootstrap/cache/
+
+# Nuxt frontend
+/frontend/node_modules/
+/frontend/.nuxt/
+/frontend/.env
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
