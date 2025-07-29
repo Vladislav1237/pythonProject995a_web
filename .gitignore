@@ -1,0 +1,29 @@
+# Root gitignore for CalcNest
+
+# Laravel
+/backend/vendor/
+/backend/node_modules/
+/backend/.env
+/backend/.phpunit.result.cache
+
+# Nuxt.js
+/frontend/node_modules/
+/frontend/.nuxt/
+/frontend/.env
+
+# Root env
+/.env
+
+# IDE
+/.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
